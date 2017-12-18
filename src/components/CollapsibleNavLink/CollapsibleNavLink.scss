@@ -1,0 +1,58 @@
+.CollapsibleNavLink {
+  .parent {
+    display: flex;
+    align-items: center;
+
+    @media (min-width: 700px) {
+      justify-content: flex-start;
+    }
+
+    @media (max-width: 699px) {
+      justify-content: center;
+    }
+
+    .toggleButton {
+      padding: 0 10px;
+      cursor: pointer;
+
+      @media (min-width: 900px) {
+        padding: 0 10px;
+      }
+
+      @media (min-width: 700px) and (max-width: 899px) {
+        padding: 0 7px;
+        transform: scale(0.9);
+      }
+
+      @media (max-width: 699px) {
+        padding: 0 5px;
+        transform: scale(0.8);
+      }
+
+      &:hover {
+        path {
+          stroke: #00a5e4;
+        }
+      }
+
+      path {
+        stroke: #555;
+        stroke-width: 1;
+        fill: none;
+      }
+    }
+
+  }
+
+  .children {
+    @media (min-width: 700px) {
+      padding-left: 15px;
+    }
+
+    @media (max-width: 699px) {
+      padding-left: 0;
+      text-align: center;
+      transform: scale(0.9);
+    }
+  }
+}

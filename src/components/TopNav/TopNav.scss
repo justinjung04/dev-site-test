@@ -1,0 +1,29 @@
+.TopNav {
+  @media (min-width: 700px) {
+    &.visible, &.hidden {
+      display: block;
+    }
+  }
+
+  @media (max-width: 699px) {
+    position: fixed;
+    top: 50px;
+    left: 0;
+
+    flex-direction: column;
+    width: 100%;
+    height: calc(100% - 50px);
+    padding: 20px;
+
+    text-align: center;
+    background: white;
+
+    &.visible {
+      display: flex;
+    }
+
+    &.hidden {
+      display: none;
+    }
+  }
+}

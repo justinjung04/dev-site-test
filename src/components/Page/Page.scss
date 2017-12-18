@@ -1,0 +1,33 @@
+.Page {
+  width: 100%;
+
+  @media (min-width: 900px) {
+    padding: 20px;
+  }
+
+  @media (min-width: 700px) and (max-width: 899px) {
+    padding: 15px;
+  }
+
+  @media (max-width: 699px) {
+    padding: 15px;
+  }
+
+  &.shrink {
+    @media (min-width: 900px) {
+      width: calc(100% - 300px);
+      margin-left: 300px;
+    }
+
+    @media (min-width: 700px) and (max-width: 899px) {
+      width: calc(100% - 250px);
+      margin-left: 250px;
+    }
+
+    @media (max-width: 699px) {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
+}

@@ -1,0 +1,130 @@
+.MarkdownTemplate {
+  padding: 0 20px;
+  word-wrap: break-word;
+
+  @media (min-width: 900px) {
+    padding: 0 20px;
+  }
+
+  @media (min-width: 700px) and (max-width: 899px) {
+    padding: 0 15px;
+  }
+
+  @media (max-width: 699px) {
+    padding: 0 10px;
+  }
+
+  h1 {
+    border-bottom: 1px solid #ddd;
+  }
+
+  h2, h3, h4, h5 {
+    @media (min-width: 900px) {
+      margin: calc(1em - 70px) 0 1em;
+      padding-top: 70px;
+    }
+
+    @media (min-width: 700px) and (max-width: 899px) {
+      margin: calc(1em - 60px) 0 1em;
+      padding-top: 60px;
+    }
+
+    @media (max-width: 699px) {
+      margin: calc(1em - 50px) 0 1em;
+      padding-top: 50px;
+    }
+  }
+
+  table {
+    margin: 15px 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+
+    tbody {
+      border-top: 1px solid #ddd;
+
+      tr:nth-child(2n+1) {
+        background: #f8f8f8;
+      }
+    }
+
+    tr {
+      display: flex;
+
+      &:nth-child(n+2) {
+        border-top: 1px solid #ddd;
+      }
+
+      th, td {
+        flex: 1;
+        padding: 6px 12px;
+        word-break: break-all;
+
+        &:nth-child(n+2) {
+          border-left: 1px solid #ddd;
+        }
+      }
+    }
+  }
+
+  :not(pre) > code[class*="language-"],
+  pre[class*="language-"] {
+    position: relative;
+    background: #fafafa;
+
+    @media (min-width: 900px) {
+      font-size: 15px;
+    }
+
+    @media (min-width: 700px) and (max-width: 899px) {
+      font-size: 14px;
+    }
+
+    @media (max-width: 699px) {
+      font-size: 13px;
+    }
+  }
+
+  :not(pre) > code {
+    padding: 3px;
+    border-radius: 5px;
+    background: rgba(0, 165, 228, 0.1);
+
+    @media (min-width: 900px) {
+      font-size: 16px;
+    }
+
+    @media (min-width: 700px) and (max-width: 899px) {
+      font-size: 15px;
+    }
+
+    @media (max-width: 699px) {
+      font-size: 14px;
+    }
+  }
+
+  blockquote {
+    display: flex;
+    margin: 15px 0;
+    padding: 0 15px;
+    border-left: 4px solid #ddd;
+    color: #777;
+    font-style: italic;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .markdown-body, .gatsby-highlight {
+    width: 100%;
+  }
+
+  .language-jsx .token.operator {
+    background: none;
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "pdftron-dev-site",
+  "description": "PDFTron dev site",
+  "version": "1.0.0",
+  "author": "Justin Jung <justinjung04@gmail.com>",
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "start": "gatsby develop --host localhost --port 8000",
+    "build": "gatsby build --prefix-paths",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "serve": "gatsby serve",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'"
+  },
+  "devDependencies": {
+    "gatsby": "^1.9.119",
+    "gatsby-link": "^1.6.28",
+    "gatsby-plugin-catch-links": "^1.0.9",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-sass": "^1.0.12",
+    "gatsby-remark-autolink-headers": "^1.4.7",
+    "gatsby-remark-copy-linked-files": "^1.5.22",
+    "gatsby-remark-external-links": "0.0.3",
+    "gatsby-remark-prismjs": "^1.2.8",
+    "gatsby-source-filesystem": "^1.5.5",
+    "gatsby-transformer-json": "^1.0.11",
+    "gatsby-transformer-remark": "^1.7.17",
+    "gatsby-transformer-yaml": "^1.5.11",
+    "gh-pages": "^1.0.0",
+    "prettier": "^1.7.4"
+  }
+}

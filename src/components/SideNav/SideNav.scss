@@ -1,0 +1,75 @@
+.SideNav {
+  position: fixed;
+  // left: 0;
+  overflow-y: auto;
+  background: white;
+
+  @media (min-width: 900px) {
+    top: 70px;
+    width: 300px;
+    height: calc(100% - 70px);
+    padding: 0 15px 0 30px;
+  }
+
+  @media (min-width: 700px) and (max-width: 899px) {
+    top: 60px;
+    width: 250px;
+    height: calc(100% - 60px);
+    padding: 0 10px 0 20px;
+  }
+
+  @media (max-width: 699px) {
+    top: 50px;
+    width: 100%;
+    height: calc(100% - 50px);
+    padding: 0 10px 0 20px;
+    z-index: 1;
+  }
+
+  &.visible-desktop {
+    @media (min-width: 700px) {
+      display: block;
+    }
+  }
+
+  &.hidden-desktop {
+    @media (min-width: 700px) {
+      display: none;
+    }
+  }
+
+  &.visible-mobile {
+    @media (max-width: 699px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &.hidden-mobile {
+    @media (max-width: 699px) {
+      display: none;
+    }
+  }
+
+  & > *:first-child {
+    margin-top: 20px !important;
+  }
+
+  & > *:last-child {
+    margin-bottom: 20px !important;
+  }
+
+  .header {
+    margin: 20px 0 0;
+    padding: 5px;
+    color: #00a5e4;
+    font-weight: bold;
+  }
+
+  .Link {
+    display: block;
+    margin: 0;
+    padding: 2px 5px;
+  }
+}
