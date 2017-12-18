@@ -2,7 +2,7 @@
 title: Pages
 ---
 
-## UPDATE PAGE
+## UPDATE!
 
 ## File
 
