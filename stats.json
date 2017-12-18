@@ -1,0 +1,122 @@
+{
+  "assetsByChunkName": {
+    "path---readme-docs-assets": [
+      "path---readme-docs-assets-dda95d748a57f7c48cd6.js",
+      "path---readme-docs-assets-dda95d748a57f7c48cd6.js.map"
+    ],
+    "path---readme-docs-tone": [
+      "path---readme-docs-tone-f71bcebf2fb1f2a83ff2.js",
+      "path---readme-docs-tone-f71bcebf2fb1f2a83ff2.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-8e8b7d5503f9f172a1d7.js",
+      "component---src-pages-index-js-8e8b7d5503f9f172a1d7.js.map"
+    ],
+    "path---readme-docs-grammar": [
+      "path---readme-docs-grammar-89271d7cec34262bac59.js",
+      "path---readme-docs-grammar-89271d7cec34262bac59.js.map"
+    ],
+    "path---readme-docs-folder-structure": [
+      "path---readme-docs-folder-structure-c9f8ac831e8dcad7d9e6.js",
+      "path---readme-docs-folder-structure-c9f8ac831e8dcad7d9e6.js.map"
+    ],
+    "path---": [
+      "path----e906a1434925bb6fe9c5.js",
+      "path----e906a1434925bb6fe9c5.js.map"
+    ],
+    "path---readme-docs-quotes": [
+      "path---readme-docs-quotes-ffbace516ce326da8ea6.js",
+      "path---readme-docs-quotes-ffbace516ce326da8ea6.js.map"
+    ],
+    "path---readme-docs-horizontal-lines": [
+      "path---readme-docs-horizontal-lines-3d4beeb7e99deba451f1.js",
+      "path---readme-docs-horizontal-lines-3d4beeb7e99deba451f1.js.map"
+    ],
+    "path---readme-docs-line-breaks": [
+      "path---readme-docs-line-breaks-0b1d9300b91df282fab5.js",
+      "path---readme-docs-line-breaks-0b1d9300b91df282fab5.js.map"
+    ],
+    "path---readme-docs-headers": [
+      "path---readme-docs-headers-a7fbacc62cfeb46c732c.js",
+      "path---readme-docs-headers-a7fbacc62cfeb46c732c.js.map"
+    ],
+    "path---readme-docs-images": [
+      "path---readme-docs-images-f81eec166f7e76ffc8ea.js",
+      "path---readme-docs-images-f81eec166f7e76ffc8ea.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---readme-docs-code": [
+      "path---readme-docs-code-f42df294078be5b2cc86.js",
+      "path---readme-docs-code-f42df294078be5b2cc86.js.map"
+    ],
+    "path---readme-docs-italic": [
+      "path---readme-docs-italic-6b98a1fdc7ff673a06bf.js",
+      "path---readme-docs-italic-6b98a1fdc7ff673a06bf.js.map"
+    ],
+    "path---readme-docs-links": [
+      "path---readme-docs-links-8d68755d2225a3111376.js",
+      "path---readme-docs-links-8d68755d2225a3111376.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-9e32def4b354c7e8aa9a.js",
+      "component---src-pages-404-js-9e32def4b354c7e8aa9a.js.map"
+    ],
+    "commons": [
+      "commons-8d861482452f1978f795.js",
+      "commons-8d861482452f1978f795.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---readme-docs-lists": [
+      "path---readme-docs-lists-9712e347a7205a244f3e.js",
+      "path---readme-docs-lists-9712e347a7205a244f3e.js.map"
+    ],
+    "component---src-layouts-main-layout-js": [
+      "component---src-layouts-main-layout-js-5cf94cf95ded0828b0a5.js",
+      "component---src-layouts-main-layout-js-5cf94cf95ded0828b0a5.js.map"
+    ],
+    "path---readme-docs-tables": [
+      "path---readme-docs-tables-9c1e079b1a4fab2b2056.js",
+      "path---readme-docs-tables-9c1e079b1a4fab2b2056.js.map"
+    ],
+    "path---readme-docs-spelling": [
+      "path---readme-docs-spelling-000db86b71ad107f5575.js",
+      "path---readme-docs-spelling-000db86b71ad107f5575.js.map"
+    ],
+    "app": [
+      "app-37b5e756fc371d07aee2.js",
+      "build-js-styles.css",
+      "app-37b5e756fc371d07aee2.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---readme-docs-bold": [
+      "path---readme-docs-bold-84040593030e61d36b7a.js",
+      "path---readme-docs-bold-84040593030e61d36b7a.js.map"
+    ],
+    "component---src-templates-markdown-template-js": [
+      "component---src-templates-markdown-template-js-b548ef351338982a2273.js",
+      "component---src-templates-markdown-template-js-b548ef351338982a2273.js.map"
+    ],
+    "path---readme-docs-side-nav": [
+      "path---readme-docs-side-nav-03c95c177ab885606013.js",
+      "path---readme-docs-side-nav-03c95c177ab885606013.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---readme-docs-top-nav": [
+      "path---readme-docs-top-nav-c218aec369cb8dbcd46a.js",
+      "path---readme-docs-top-nav-c218aec369cb8dbcd46a.js.map"
+    ],
+    "path---readme-docs": [
+      "path---readme-docs-ca8fc9ad1ecc173ca8fb.js",
+      "path---readme-docs-ca8fc9ad1ecc173ca8fb.js.map"
+    ]
+  }
+}
