@@ -17,7 +17,8 @@ module.exports = {
             resolve: 'gatsby-remark-copy-linked-files',
             options: {
               // destinationDir: 'www/justinj/pdftron-dev-site/static',
-              destinationDir: 'static',
+              destinationDir: 'dev-site-test/static',
+              // destinationDir: 'static',
               ignoreFileExtensions: []
             }
           },
@@ -37,5 +38,6 @@ module.exports = {
     `gatsby-plugin-sass`,
   ],
   // pathPrefix: `/www/justinj/pdftron-dev-site`,
-  pathPrefix: `/`,
+  pathPrefix: `/dev-site-test`,
+  // pathPrefix: `/`,
 };
