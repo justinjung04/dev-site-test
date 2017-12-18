@@ -3,8 +3,6 @@ import { withPrefix } from 'gatsby-link';
 
 import Link from '../Link';
 
-import favicon from '../../static/favicon.png';
-import logo from '../../static/logo.png';
 import './Header.scss';
 
 export default ({ currentNav, isTopNavVisible, isSideNavVisible, showTopNav, showSideNav, hideAllNavs, children }) => {
@@ -15,9 +13,7 @@ export default ({ currentNav, isTopNavVisible, isSideNavVisible, showTopNav, sho
     <div className='Header'>
       <div className='container'>
         <Link className='logo-link' to='/' onClick={hideAllNavs}>
-          <img className='logo-image desktop' src={logo} />
-          <div className='logo-sub'>developers</div>
-          <img className='logo-image mobile' src={favicon} />
+          Hello
         </Link>
         <div className={currentNavClassName} onClick={showSideNav}>{currentNav ? currentNav.title : ''}</div>
         <svg className={svgClassName} width='27' height='30' onClick={onClickSvg}>

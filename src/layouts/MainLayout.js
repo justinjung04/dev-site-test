@@ -9,8 +9,6 @@ import SideNav from '../components/SideNav';
 import Page from '../components/Page';
 import Footer from '../components/Footer';
 
-import favicon from '../static/favicon.png';
-
 import '../static/prism.css';
 import './MainLayout.scss';
 
@@ -159,7 +157,6 @@ export default class MainLayout extends PureComponent {
           <meta name='twitter:site' content='@pdftron' />
           <meta name='og:type' content='website' />
           <meta name='og:site_name' content='PDFTron Systems Inc.' />
-          <link rel='icon' type='image/png' href={favicon} />
         </Helmet>
         <Header currentNav={currentNav} isTopNavVisible={isTopNavVisible} isSideNavVisible={isSideNavVisible} showTopNav={this.showTopNav} showSideNav={this.showSideNav} hideAllNavs={this.hideAllNavs}>
           <TopNav topNavs={topNavs} isTopNavVisible={isTopNavVisible} hideAllNavs={this.hideAllNavs} />
@@ -198,10 +195,6 @@ export const query = graphql`
           header
           title
           link
-          childLinks {
-            title
-            link
-          }
         }
       }
     }
