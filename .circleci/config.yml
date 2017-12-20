@@ -26,9 +26,11 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - run: |
-        npm install
-        npm run build
+
+      - run: 
+        command: |
+          npm install
+          npm run build        
 
       - store_artifacts:
           path: test-builds/
