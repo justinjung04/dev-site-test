@@ -21,12 +21,9 @@ jobs:
       - run:
           name: Build
           command: npm run build
-      # - run:
-      #     name: Install Python dependencies
-      #     command: sudo apt install python-pip python-dev
       - run:
           name: Install AWS CLI
           command: sudo apt-get install -y awscli
       - run:
           name: Deploy to S3
-          command: aws --version
+          command: aws s3 sync public s3://pdftron-dev-site/ --delete
