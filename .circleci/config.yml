@@ -32,4 +32,4 @@ jobs:
           command: pip install awscli --upgrade --user
       - run:
           name: Deploy to S3
-          command: aws s3 sync public s3://pdftron-devsite/ --delete
+          command: ~/.local/bin/aws --version
