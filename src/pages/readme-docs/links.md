@@ -16,11 +16,3 @@ title: Links
 ```
 
 [Title and headers](/readme-docs/title-and-headers)
-
-### Example 2
-
-```
-[`PDFTron.WebViewer`](https://www.pdftron.com/webviewer/demo/doc/PDFTron.WebViewer.html) 
-```
-
-[`PDFTron.WebViewer`](https://www.pdftron.com/webviewer/demo/doc/PDFTron.WebViewer.html) 

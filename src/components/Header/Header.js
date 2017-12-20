@@ -12,7 +12,7 @@ export default ({ currentNav, isTopNavVisible, isSideNavVisible, showTopNav, sho
   return (
     <div className='Header'>
       <div className='container'>
-        <Link className='logo-link' to='/' onClick={hideAllNavs}>
+        <Link className='logo-link' to={withPrefix('/')} onClick={hideAllNavs}>
           Hello
         </Link>
         <div className={currentNavClassName} onClick={showSideNav}>{currentNav ? currentNav.title : ''}</div>

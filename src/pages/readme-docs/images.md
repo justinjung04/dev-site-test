@@ -11,15 +11,7 @@ title: Images
 ### Example 1
 
 ```
-![PDFTron logo image](../../static/logo.png)
+![Google logo image](img/google-logo.png)
 ```
 
-![PDFTron logo image](../../static/logo.png)
-
-### Example 2
-
-```html
-<img alt='PDFTron logo image' src='../../static/logo.png' width='150' />
-```
-
-<img alt='PDFTron logo image' src='../../static/logo.png' width='150' />
+![Google logo image](img/google-logo.png)
