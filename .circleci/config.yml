@@ -18,7 +18,7 @@ jobs:
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
           name: install-gatsby
-          command: npm install -g gatsby-cli
+          command: sudo npm install -g gatsby-cli
       - run:
           name: install-npm
           command: npm install
