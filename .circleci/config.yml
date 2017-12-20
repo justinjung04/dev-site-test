@@ -25,8 +25,8 @@ jobs:
           name: Install PIP
           command: sudo apt install python-pip
       - run:
-          name: Check version
-          command: pip -V
+          name: Install python-dev
+          command: sudo apt install python-dev
       - run:
           name: Install AWS CLI
           command: pip install awscli --upgrade --user
